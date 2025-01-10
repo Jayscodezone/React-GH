@@ -1,5 +1,5 @@
 
-const SelectedContact =({contactId, setSelectedContactId}) => {
+export const SelectedContact =({contactId, setSelectedContactId}) => {
 
     return(
         <>
@@ -11,7 +11,7 @@ const SelectedContact =({contactId, setSelectedContactId}) => {
         </>
     )
 }
-export default SelectedContact;
+//export default SelectedContact;
 
 
 //Psuedo Code 
