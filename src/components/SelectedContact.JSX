@@ -1,5 +1,6 @@
 
 export const SelectedContact =({contactId, setSelectedContactId}) => {
+   // export default function SelectedContact =({contactId, setSelectedContactId}) => {
 
     return(
         <>

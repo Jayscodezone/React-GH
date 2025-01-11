@@ -2,8 +2,8 @@ export default function ContactRow ({ setSelectedContactId, contact }) {
     return (
         <tr
         onClick={() => {
-            setSelectedContactId(contact);
-        } } 
+            setSelectedContactId(contact.id);
+        }} 
         >
             <td>{contact.name}</td>
             <td>{contact.email}</td>
